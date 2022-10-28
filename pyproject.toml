@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cipher_xs2474"
+version = "0.1.0"
+description = "cipher is an algorithm for encrypting and decrypting data."
+authors = ["Xinyi Shi"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
